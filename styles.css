@@ -1,57 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
-}
-
-#container {
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    background-color: #ffffff;
+#payment-instructions {
+    background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#gameBoard {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
-    background-color: #bbada0;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.tile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #cdc1b4;
-}
-
-.status {
     margin-top: 20px;
+}
+
+#payment-instructions h2 {
     font-size: 18px;
-    color: #333333;
+    color: #333;
 }
 
-#adContainer {
-    margin: 20px auto;
-    max-width: 100%;
-    text-align: center;
+#payment-instructions ol {
+    margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
-    .tile {
-        font-size: 18px;
-    }
+#payment-instructions li {
+    margin-bottom: 5px;
 }
