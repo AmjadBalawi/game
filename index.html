@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game with Ads</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Google AdSense script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        // Replace with your AdSense ad unit ID
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-xxxxxxxxxxxxxx",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>2048 Game with Ads</h1>
+        <div id="gameBoard"></div>
+        <!-- Ad container -->
+        <div id="adContainer">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-xxxxxxxxxxxxxx"
+                 data-ad-slot="xxxxxxxxxx"
+                 data-ad-format="auto"></ins>
+        </div>
+        <div class="status">
+            <p id="score">Score: 0</p>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="2048.js"></script>
+</body>
+</html>
