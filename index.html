@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2048 Game with Ads</title>
+    <title>Your Game</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Include Google AdSense script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        // Replace with your AdSense ad unit ID
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-xxxxxxxxxxxxxx",
-            enable_page_level_ads: true
-        });
-    </script>
 </head>
 <body>
-    <div id="container">
-        <h1>2048 Game with Ads</h1>
-        <div id="gameBoard"></div>
-        <!-- Ad container -->
-        <div id="adContainer">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-xxxxxxxxxxxxxx"
-                 data-ad-slot="xxxxxxxxxx"
-                 data-ad-format="auto"></ins>
-        </div>
-        <div class="status">
-            <p id="score">Score: 0</p>
-            <p id="message"></p>
+    <div id="game-container">
+        <!-- Your game content -->
+        <h1>Welcome to Your Game</h1>
+        <p>Play the game and enjoy!</p>
+
+        <!-- Payment instructions section -->
+        <div id="payment-instructions">
+            <h2>Support the Game Development</h2>
+            <p>To support the development of this game, you can send a contribution via Revolut. Please follow these steps:</p>
+            <ol>
+                <li>Open your Revolut app or visit revolut.com.</li>
+                <li>Go to the Payments section and choose "Send Money."</li>
+                <li>Enter [Your Revolut Account Name/Identifier].</li>
+                <li>Enter the amount you wish to contribute.</li>
+                <li>Confirm the payment.</li>
+            </ol>
+            <p>Thank you for your support!</p>
         </div>
     </div>
-    <script src="2048.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
